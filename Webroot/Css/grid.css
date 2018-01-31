@@ -1,0 +1,60 @@
+.k-col-1{
+    width: 8.3%;
+    position: relative;
+    float: left;
+}
+.k-col-2{
+    width: 16.6%;
+    position: relative;
+    float: left;
+}
+.k-col-3{
+    width: 24.9%;
+    position: relative;
+    float: left;
+}
+.k-col-4{
+    width: 33.2%;
+    position: relative;
+    float: left;
+}
+.k-col-5{
+    width: 41.5%;
+    position: relative;
+    float: left;
+}
+.k-col-6{
+    width: 49.8%;
+    position: relative;
+    float: left;
+}
+.k-col-7{
+    width: 58.1%;
+    position: relative;
+    float: left;
+}
+.k-col-8{
+    width: 66.4%;
+    position: relative;
+    float: left;
+}
+.k-col-9{
+    width: 74.7%;
+    position: relative;
+    float: left;
+}
+.k-col-10{
+    width: 83%;
+    position: relative;
+    float: left;
+}
+.k-col-11{
+    width: 91.3%;
+    float: left;
+    position: relative;
+}
+.k-col-12{
+    width: 100%;
+    position: relative;
+    float: left;
+}

@@ -1,0 +1,5 @@
+@media(max-width: 500px) AND (min-width: 100px){
+    body{
+        background: red;
+    }
+}

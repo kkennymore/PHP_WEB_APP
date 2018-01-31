@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 18, 2017, 12:53:13 PM
+    Author     : Engr Kenneth
+*/
+
+.adminNavActive{
+    color: #f1f1f1;
+    border-bottom: 5px solid #801;
+    font-weight: bold;
+    background: #000000;
+}
+.Msgalert{
+    text-align: center;
+    font-size: 0.50em;
+    text-transform: lowercase;
+    font-style: italic;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    padding: 4px;
+}
+.welAndLastlogWrapper{
+    position: relative;
+    float: right;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    max-width: 350px;
+    font-size: 0.55em;
+    padding: 10px;
+}
+.welAndLastlogWrapper .welcome{
+    text-transform: capitalize;
+    color: #801;
+    font-size: 1em;
+}
+.welAndLastlogWrapper .lastLog{
+    font-size: 0.70em;
+    line-height: 31px;
+    font-weight: bold;
+}
+.adminTimeDisplay{
+    float: right;
+    position: relative;
+    padding: 20px 20px 0px 20px;
+    font-size: 0.90em;
+    line-height: 52px;
+    color: #801;
+    font-weight: bold;
+}
+.admin_login_form{
+    background: #ffffff;
+    padding: 20px;
+}
+.admin_login_form .admin_login_form_wrapper{
+    width: 45%;
+    min-width: 400px;
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid #508b61;
+    background: #f9f9f9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+} 
+.admin_login_form .admin_login_form_header{
+    width: 100%;
+    line-height: 40px;
+    padding: 20px 0px 20px 10px;
+    font-size: 0.80em;
+    color: #801;
+    font-weight: bold;
+}
+.admin_login_form .admin_login_form_header i{
+    color: #508b61;
+    margin-left: 30%;
+    font-size: 40px;
+}
+.admin_login_form .username,
+.admin_login_form .password,
+.admin_login_form .con_pass{
+    width: 100%;
+    font-size: 0.50em;
+    padding: 5px;
+    margin: 13px 5px;
+    border: none;
+    line-height: 24px;
+    color: #508b61;
+}
+.admin_login_form .loginBtn{
+    padding: 10px;
+    width: 49.2%;
+    min-width: 49.2%;
+    max-width: 49.2%;
+    font-size: 0.5em;
+    border: none;
+    background: #508b61;
+    color: #f1f1f1;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.admin_logout{
+    float: right;
+    line-height: 40px;
+    margin: 22px 5px 2px 0px;
+}
+.admin_logout a{
+    font-size: 0.60em;
+    text-decoration: none;
+    color: #801;
+    padding: 0px 10px 0px 0px;
+}
+.adminSideBar{
+    min-height: 300px;
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    background: #000;
+    background-color: #000000;
+    color: #e1e1e1;
+}
+.adminContentWrap{
+    padding: 5px 10px 5px 10px;
+}
+.adminHeaderWrap{
+    margin: 0 auto;
+    position: relative;
+    float: left;
+}

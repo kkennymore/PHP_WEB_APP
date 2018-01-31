@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 25, 2017, 11:32:06 AM
+    Author     : Engr Kenneth
+*/
+
+.rightSideBar{
+    position: fixed;
+    right: 0px;
+    top: 152px;
+    background:#ffffff;
+    height: auto;
+    width: 100%;
+    border-top: 3px solid #ffffff;
+    max-width: 13%;
+    padding-left: 1px;
+    min-height: 1000px;
+    display: block;
+}
+.leftSideBar{
+    position: fixed;
+    left: 0px;
+    top: 152px;
+    background:#ffffff;
+    border-top: 3px solid #ffffff;
+    height: auto;
+    width: 100%;
+    max-width: 13%;
+    min-height: 1000px;
+    display: block;
+}
+#leftSideBarButton{
+    position: fixed;
+    left: 0px;
+    height: 40px;
+    top: 131px;
+    background: #801;
+    border-top: 1px solid #e1e1e1;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-transform: scale;
+    transition: 1s;
+}
+#leftSideBarButton i {
+    font-size: 38px;
+    padding: 2px 10px 15px 2px;
+}
+#rightSideBarButton{
+    position: fixed;
+    right: 0px;
+    font-size: 40px;
+    top: 131px;
+    background: #801;
+    border-top: 1px solid #e1e1e1;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0px 5px 0px 0px;
+    z-index: 100;
+    -webkit-transform: scale;
+    transition: 1s;
+}
+#leftSideBarButton:hover,
+#rightSideBarButton:hover{
+    background: #508b61;
+    background-color: #508b61;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.SideBarDisplay{
+    display: none;
+}
+.sideBarEventHeader{
+    width: 100%;
+    border-bottom: 1px solid #f9f9f9;
+    background: transparent;
+    height: 52px;
+    line-height: 46px;
+    font-stretch: condensed;
+}
+.sideBarEventHeader .rightCloseBtn i{
+    font-size: 16px;
+    color: #e1e1e1;
+    display: block;
+    font-weight: bold;
+    margin-top: 15px ;
+    padding-left: 1px;
+    cursor: pointer;
+    z-index: 20;
+}
+.sideBarEventHeader .sideBarEvents{
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    background:darkred;
+    text-transform: uppercase;
+    border-top: 2px solid #000000;
+    position: relative;
+    color: #111111;
+    padding-left: 10px;
+}
+.sideBarEventHeader .sideBarEvents i{
+    font-size: 20px;  
+    float: right;
+    padding: 12px 20px 0px 5px;
+}
+.sideBarMenuHeader{
+    width: 100%;
+    border-bottom: 1px solid #f9f9f9;
+    background: transparent;
+    height: 52px;
+    line-height: 47px;
+    font-stretch: condensed;
+}
+.sideBarMenuHeader .leftCloseBtn i{
+    font-size: 16px;
+    color: #e1e1e1;
+    display: block;
+    font-weight: bold;
+    margin-top: 16px ;
+    margin-left: -12px;
+    padding-left: 10px;
+    cursor: pointer;
+    z-index: 20;
+}
+.sideBarMenuHeader .subMenu{
+    font-size: 1em;
+    float: left;
+    border-bottom: 3px solid #000000;
+    padding-left: 10px;
+    font-weight: bold;
+    position: relative;
+    background:darkred;
+    text-transform: uppercase;
+    color: #111111;
+}
+.sideBarMenuHeader .subMenu i{
+    font-size: 20px;
+    padding-right: 10px;
+    float: right;
+    margin-top: 15px;
+}
+.subMenuWrapper{
+    clear: both;
+}
+.subMenuWrapper .subMenuListLeft{
+    list-style-type: none;
+    color: #902;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+.subMenuWrapper .subMenuListLeft a{
+    text-decoration: none;
+    font-size: 0.75em;
+    color: #555555;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    padding: 3px 0px 3px 10px;
+    line-height: 34px;
+}
+.viewSideBar {
+    width: 100%;
+    min-height: 300px;
+    background: transparent;
+}
+.viewSideBar h1{
+    font-style: italic;
+    font-size: 0.80em;
+    line-height: 72px;
+    text-align: left;
+    height: 58px;
+    border-bottom: 1px solid #f9f9f9;
+    color: #a1a1a1;
+    font-weight: bold;
+    font-stretch: condensed;
+    padding-left: 10px;
+}
+.viewSideBar h1 i{
+    color: #c1c1c1;
+    float: right;
+    margin-top: 26px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+.mostRead{
+    width: 100%;
+    margin: 0;
+}
+.mostRead li{
+    list-style-type: square;
+    padding: 5px;
+    margin-left: 3px;
+    border-bottom: 1px solid #f9f9f9;
+    font-size: 0.55em;
+    padding: 10px 10px 10px 10px;
+    -webkit-transform: scale;
+    transition: 1s;
+}
+.mostRead li a{
+    text-decoration: none;
+    display: block;
+    color: #666666;
+    text-align: left;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-style: italic;
+    -webkit-transform: scale;
+    transition: 2s;
+}
+.mostRead li:hover,
+.mostRead li a:hover{
+    background: #ffffff;
+    text-decoration: underline;
+    color: #c43434;
+    -webkit-transform: scale(1);
+    transform: scale(1.0001);
+}

@@ -1,0 +1,5 @@
+@media(max-width: 878.4px) AND (min-width: 500px){
+    body{
+        background: yellow;
+    }
+}
